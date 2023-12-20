@@ -12,7 +12,7 @@
 #refund {
     margin-top: 20px;
     padding: 20px;
-    width: 50%;
+    width: 70%;
     background-color: blueviolet;
 }
 
@@ -47,7 +47,7 @@
 .dropdown {
     margin-top: 20px;
     padding: 20px;
-    width: 50%;
+    width: 70%;
     height: 350px;
     background-color: blueviolet;
 }
@@ -94,7 +94,7 @@
 .tab-menu {
     margin-top: 20px;
     padding: 20px;
-    width: 50%;
+    width: 70%;
     background-color: blueviolet;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .tab-btn {
-    font-size: 2rem;
+    font-size: 1.2rem;
     background-color: aqua;
     border: none;
     cursor: pointer;
@@ -120,7 +120,7 @@
 .content-sec {
     background-color: aliceblue;
     padding: 10px;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-bottom: 30px;
     border-radius: 20px;
 }
