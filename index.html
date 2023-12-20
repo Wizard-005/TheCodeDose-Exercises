@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advanced JavaScript</h1>
+    <div><button id="save">Save</button></div>
+
+    <!-- The Refund Accordion Starts From Here -->
+    <h1>Accordion</h1>
+    <section id="refund" class="accordion-section">
+        <div class="accordion-item" id="info">
+          <p class="grey accordion-trigger">What is your refund policy? <span class="arrow">&#9660;</span></p>
+          <p class="white accordion-content">If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.</p>
+          <p class="grey accordion-trigger">Do you offer technical support? <span class="arrow">&#9660;</span></p>
+          <p class="white accordion-content">No</p>
+        </div>
+      </section>
+
+      <!-- Menu Dropdown -->
+      <h1>Menu Dropdown</h1>
+      <section class="dropdown">
+        <div class="dropdown-name">
+            <button class="dropdown-button">Options <span class="arrow">&#9660;</span></button>
+        </div>
+            <div class="dropdown-content">
+                <ul>
+                    <li>Edit</li>
+                    <li>Duplicate</li>
+                    <li>Archive</li>
+                    <li>Delete</li>
+                </ul>
+            </div>       
+      </section>
+
+<!-- Tab menu and section -->
+<h1>Tab Menu and Section</h1>
+    <section class="tab-menu">
+        <div class="tab-box">
+            <button class="tab-btn" onclick="showContent(0)">Recent</button>
+            <button class="tab-btn" onclick="showContent(1)">Popular</button>
+            <button class="tab-btn" onclick="showContent(2)">Trending</button>
+        </div>
+        <div class="content-sec">
+            <div class="content">
+                <p class="bold">Does drinking coffee make you smarter?</p>
+                <p>5h ago . 5 comments . 2 shares</p>
+                <p class="bold">Does drinking coffee make you smarter?</p>
+                <p>5h ago . 5 comments . 2 shares</p>
+            </div>
+            <div class="content">
+                <p class="bold">Does Eating coffee make you smarter?</p>
+                <p>5h ago . 5 comments . 2 shares</p>
+                <p class="bold">Does Eating coffee make you smarter?</p>
+                <p>5h ago . 5 comments . 2 shares</p>
+            </div>
+            <div class="content">
+                <p class="bold">Does Cooking coffee make you smarter?</p>
+                <p>5h ago . 5 comments . 2 shares</p>
+                <p class="bold">Does Cooking coffee make you smarter?</p>
+                <p>5h ago . 5 comments . 2 shares</p>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
